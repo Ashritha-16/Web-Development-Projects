@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <header>
+        <h1>Task Manager</h1>
+        <p>Organize your work, achieve your goals</p>
+        
+    </header>
+    <main>
+        <section id="add-task">
+            <h2>Add New Task</h2>
+            <form id="task-form">
+                <input type="text" id="title" placeholder="Task Title" required>
+                <textarea id="description" placeholder="Task Description"></textarea>
+                <select id="priority" required>
+                    <option value="">Select Priority</option>
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+                <input type="date" id="due-date" required>
+                <button type="submit" id="submit-btn">Add Task</button>
+            </form>
+        </section>
+        <section id="filters">
+            <h2>Filter Tasks</h2>
+            <select id="status-filter">
+                <option value="all">All</option>
+                <option value="pending">Pending</option>
+                <option value="completed">Completed</option>
+            </select>
+            <select id="priority-filter">
+                <option value="all">All Priorities</option>
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+            </select>
+        </section>
+        <section id="task-list">
+            <h2>Your Tasks</h2>
+            <div id="tasks-container"></div>
+            <p id="no-tasks" style="display: none;">No tasks available. Add a new task to get started!</p>
+        </section>
+    </main>
+    <script src="1.js"></script>
+</body>
+</html>

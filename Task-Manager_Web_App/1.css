@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url('pic2.jpg'); /* path to your image */
+    background-size: cover;      /* cover the whole screen */
+    background-position: center; /* center the image */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* optional: stays fixed when scrolling */
+    background-color: #ffffffbe; /* fallback color */
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    position: relative;
+}
+
+/* Optional overlay to make content readable */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* white overlay, adjust opacity */
+    z-index: -1; /* behind content */
+}
+
+
+
+header {
+    background-color: #333;
+    color: #fffffff1;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+input, textarea, select, button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#filters {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.task-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s;
+}
+
+.task-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.task-card.completed {
+    background-color: #e8f5e8;
+    border-color: #4caf50;
+}
+
+.task-card.pending {
+    background-color: #fff3e0;
+    border-color: #ff9800;
+}
+
+.task-actions {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.task-actions button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.9rem;
+}
+
+.priority-high {
+    color: #f44336;
+}
+
+.priority-medium {
+    color: #ff9800;
+}
+
+.priority-low {
+    color: #4caf50;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 0.5rem;
+    }
+    
+    #filters {
+        flex-direction: column;
+    }
+    
+    .task-actions {
+        flex-direction: column;
+    }
+}

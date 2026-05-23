@@ -1,51 +1,65 @@
-# Web Development Projects
+🚀 Web Development Projects
 
-This repository contains my web development projects developed using HTML5, CSS3, and JavaScript. These projects were created to improve my frontend development skills and understanding of responsive web design and user interaction.
+This repository contains my web development projects built using HTML5, CSS3, and JavaScript.
+These projects were developed to improve my skills in frontend development, responsive design, and JavaScript logic building.
 
-## Projects Included
+📂 Projects Included
+🌐 Responsive Landing Page
+Fully responsive layout for desktop and mobile
+Navigation bar and interactive UI sections
+Built using HTML5, CSS3, JavaScript
 
-### 1. Responsive Landing Page
-- Responsive design for desktop and mobile devices
-- Navigation bar and interactive sections
-- Built using HTML5, CSS3, and JavaScript
+⏱️ Stopwatch Web App
+Start, stop, and reset functionality
+Clean and user-friendly UI
+Built using HTML5, CSS3, JavaScript
 
-### 2. Stopwatch Web App
-- Start, stop, and reset functionality
-- User-friendly interface
-- Built using HTML5, CSS3, and JavaScript
+🎮 Tic-Tac-Toe Web App
+Interactive 2-player game
+Win and draw detection logic
+Responsive game interface
 
-### 3. Tic-Tac-Toe Web App
-- Interactive game interface
-- Win and draw detection
-- Built using HTML5, CSS3, and JavaScript
+🌦️ Weather Web App
+Displays real-time weather data
+API integration for live updates
+Responsive and clean UI
 
-### 4. Weather Web App
-- Displays weather information
-- Uses API integration for live weather updates
-- Built using HTML5, CSS3, and JavaScript
+📺 YouTube Clone
+UI clone of YouTube homepage
+Sidebar navigation and video grid layout
+Fully responsive design
 
-### 5. YouTube Clone
-- YouTube homepage UI clone
-- Sidebar navigation and video cards
-- Responsive design layout
-- Built using HTML5 and CSS3
+📝 Task Manager Web App ⭐ (NEW)
+Add, edit, delete tasks
+Mark tasks as completed or pending
+Filter tasks by status and priority
+Stores data using LocalStorage
+Responsive and clean UI
 
-## Technologies Used
+🛠️ Technologies Used
+HTML5
+CSS3
+JavaScript (Vanilla JS)
 
-- HTML5
-- CSS3
-- JavaScript
-
-## Folder Structure
-
+📁 Folder Structure
 Web_Development/
 │
 ├── Responsive-Landing-Page/
 ├── Stopwatch-Web-App/
 ├── Tic-Tac-Toe-Web-App/
 ├── Weather-Web-App/
-└── YouTube-Clone/
-
-## Author
+├── YouTube-Clone/
+└── Task-Manager-Web-App/
+👩‍💻 Author
 
 Ashritha
+
+⭐ Final Note
+
+This repository showcases my frontend development journey and hands-on practice with real-world mini projects using core web technologies.
+
+
+
+
+
+

@@ -1,0 +1,176 @@
+/* =========================
+   GLOBAL BACKGROUND
+========================= */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    /* FINAL BACKGROUND COLOR */
+    background: #0b1320;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    padding: 15px;
+}
+
+/* =========================
+   WEATHER CONTAINER BOX
+========================= */
+
+.app {
+    width: 380px;
+    max-width: 100%;
+
+    /* DIFFERENT FROM BACKGROUND */
+    background: #16213e;
+
+    padding: 25px;
+    border-radius: 16px;
+
+    text-align: center;
+    color: #ffffff;
+
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
+/* =========================
+   TITLE
+========================= */
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+/* =========================
+   SEARCH SECTION
+========================= */
+
+.search-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* INPUT */
+input {
+    flex: 1;
+    padding: 10px;
+
+    border: none;
+    border-radius: 10px;
+
+    outline: none;
+
+    background: #0b1320;
+    color: #ffffff;
+
+    font-size: 14px;
+}
+
+/* BUTTON */
+button {
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #4cc9f0;
+    color: #ffffff;
+
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3aaed8;
+}
+
+/* =========================
+   WEATHER DISPLAY
+========================= */
+
+.weather-box img {
+    width: 120px;
+    display: none;
+}
+
+#temperature {
+    font-size: 44px;
+    margin: 10px 0;
+}
+
+#description,
+#cityName {
+    margin: 5px 0;
+    font-size: 15px;
+    color: #cbd5e1;
+}
+
+/* =========================
+   HOURLY FORECAST
+========================= */
+
+#hourlyForecast {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+
+    margin-top: 20px;
+    padding: 10px 0;
+}
+
+/* HOURLY BOX */
+.hour-box {
+    min-width: 70px;
+
+    background: #0b1320;
+
+    padding: 10px;
+    border-radius: 10px;
+
+    font-size: 12px;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ICON */
+.hour-box img {
+    width: 30px;
+    margin: 5px 0;
+}
+
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+
+@media (max-width: 480px) {
+
+    .app {
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #temperature {
+        font-size: 36px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 13px;
+    }
+}

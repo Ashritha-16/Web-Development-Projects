@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial,sans-serif;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-image:url("img.jpg");
+    background-size:cover;
+    background-position:center;
+    padding:20px;
+}
+
+.stopwatch-card{
+    width:500px;
+    max-width:100%;
+    padding:30px;
+    text-align:center;
+    border-radius:20px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    box-shadow:0 0 20px rgba(0,0,0,0.5);
+    color:white;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+#display{
+    font-size:45px;
+    font-weight:bold;
+    margin-bottom:25px;
+}
+
+.button-group{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+    color:white;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+button:disabled{
+    opacity:0.5;
+    cursor:not-allowed;
+}
+
+#start-btn{
+    background:green;
+}
+
+#pause-btn{
+    background:orange;
+}
+
+#reset-btn{
+    background:red;
+}
+
+#lap-btn{
+    background:blue;
+}
+
+.lap-section{
+    max-height:200px;
+    overflow-y:auto;
+}
+
+#lap-list{
+    list-style:none;
+    margin-top:10px;
+}
+
+#lap-list li{
+    padding:10px;
+    margin-top:10px;
+    background:rgba(255,255,255,0.2);
+    border-radius:8px;
+}
+
+@media(max-width:500px){
+
+    #display{
+        font-size:30px;
+    }
+
+    button{
+        width:100%;
+    }
+}

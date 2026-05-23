@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(135deg,#12001a,#2a0a3d,#6a0dad);
+    color:white;
+}
+
+/* MAIN CONTAINER */
+.container{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+/* TITLE */
+h1{
+    font-size:2.5rem;
+    text-shadow:0 0 10px #ff00ff;
+}
+
+/* SCORE BOARD */
+.score-board{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.score{
+    width:90px;
+    padding:10px;
+    border-radius:12px;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(10px);
+    text-align:center;
+}
+
+.score span{
+    font-size:14px;
+    opacity:0.8;
+}
+
+.score p{
+    font-size:25px;
+    font-weight:bold;
+}
+
+.x-score{
+    border:2px solid #22c55e;
+    color:#22c55e;
+}
+
+.o-score{
+    border:2px solid #facc15;
+    color:#facc15;
+}
+
+.draw-score{
+    border:2px solid #a1a1aa;
+    color:#d4d4d8;
+}
+
+/* TURN */
+#turn{
+    font-size:18px;
+}
+
+/* BOARD */
+.board{
+    display:grid;
+    grid-template-columns:repeat(3,100px);
+    gap:10px;
+    justify-content:center;
+}
+
+.cell{
+    width:100px;
+    height:100px;
+    font-size:40px;
+    font-weight:bold;
+
+    border:none;
+    border-radius:12px;
+
+    cursor:pointer;
+
+    background:#5b0e8a;
+    color:white;
+
+    transition:0.3s;
+}
+
+.cell:hover{
+    transform:scale(1.05);
+    background:#8a2be2;
+}
+
+/* WIN BOX */
+.win{
+    background:#22c55e !important;
+    transform:scale(1.1);
+}
+
+/* BUTTONS */
+.controls button{
+    padding:10px 20px;
+    margin:5px;
+
+    border:none;
+    border-radius:8px;
+
+    cursor:pointer;
+
+    background:#2d003d;
+    color:white;
+}
+
+/* POPUP */
+.popup{
+    position:absolute;
+    inset:0;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+    background:rgba(0,0,0,0.9);
+}
+
+.hide{
+    display:none;
+}
+
+/* RESULT */
+#result{
+    font-size:3rem;
+    margin-bottom:20px;
+}
+
+/* RESULT BOX COLORS */
+.result-box{
+    padding:30px 60px;
+    border-radius:15px;
+    margin-bottom:20px;
+}
+
+.win-x{
+    background:linear-gradient(135deg,#0f172a,#22c55e);
+}
+
+.win-o{
+    background:linear-gradient(135deg,#1e1b4b,#facc15);
+}
+
+.draw{
+    background:linear-gradient(135deg,#111827,#6b7280);
+}
+
+/* NEW GAME BUTTON */
+#newGame{
+    padding:12px 30px;
+    font-size:1.2rem;
+
+    border:none;
+    border-radius:10px;
+
+    cursor:pointer;
+
+    background:linear-gradient(135deg,#a21caf,#f472b6);
+    color:white;
+}

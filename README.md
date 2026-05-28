@@ -1,107 +1,130 @@
-🚀 Web Development Projects Portfolio
+# 🚀 Web Development Projects Portfolio
 
+A collection of frontend web development projects built using HTML, CSS, and JavaScript, showcasing responsive design, interactive user interfaces, and real-world web application development.
 
-A collection of frontend web development projects built using HTML, CSS, and JavaScript, showcasing my skills in responsive design, interactive user interfaces, and real-world web application development.
+## 🌐 Live Demo
 
-🌐 Live Demo
+🔗 Live Website:
 https://ashritha-16.github.io/Web-Development-Projects/
 
-📌 About
-This repository is a collection of my frontend web development projects built using:
+---
 
-HTML5
-CSS3
-JavaScript (Vanilla JS)
+# 📌 About
 
-These projects helped me strengthen my skills in:
+This repository contains multiple frontend web development projects created using:
 
-Responsive Web Design
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
 
-JavaScript Logic Building
+These projects helped me improve my skills in:
 
-DOM Manipulation
+* Responsive Web Design
+* JavaScript Logic Building
+* DOM Manipulation
+* API Integration
+* UI/UX Development
+* LocalStorage Usage
+* Real-World Frontend Development
 
-API Integration
+---
 
-UI/UX Development
+# 📂 Projects Included
 
-LocalStorage usage
+## 🌐 Interactive Navigation Menu
 
-Real-world frontend project development
+A responsive navigation bar with scroll-based effects and smooth hover animations.
 
-📂 Projects Included
-🌐 Interactive Navigation Menu
+### Features
 
-A responsive navigation bar that changes style on scroll with smooth hover effects.
+* Scroll-based navbar animation
+* Fixed navigation bar
+* Smooth hover effects
+* Fully responsive layout
 
-Features
-Scroll-based navbar animation
-Fixed navigation bar
-Smooth hover effects
-Fully responsive layout
+---
 
-⏱️ Stopwatch Web App
+## ⏱️ Stopwatch Web App
 
-A stopwatch application with start, pause, reset, and lap tracking features.
+A stopwatch application with start, pause, reset, and lap tracking functionality.
 
-Features
-Start Pause Reset
-Lap time recording
-Millisecond accuracy
-Responsive design
+### Features
 
-📝 Task Manager Web App
+* Start, Pause, and Reset
+* Lap time recording
+* Millisecond accuracy
+* Responsive design
 
-A task management system to create, edit, delete, and filter tasks with LocalStorage.
+---
 
-Features
-Add Edit Delete tasks
-Priority and status filtering
-LocalStorage support
-Due date validation
-Responsive UI
+## 📝 Task Manager Web App
 
-🎮 Tic Tac Toe Game
+A task management application to create, edit, delete, and filter tasks using LocalStorage.
 
-A 2-player Tic Tac Toe game with score tracking.
+### Features
 
-Features
-2-player mode
-Simple AI
-Scoreboard
-Win and draw detection
-Modern UI
+* Add, Edit, and Delete tasks
+* Priority and status filtering
+* LocalStorage support
+* Due date validation
+* Responsive UI
 
-🌦️ Weather Web App
+---
 
-A real-time weather application using OpenWeatherMap API.
+## 🎮 Tic Tac Toe Game
 
-Features
-City search
-Live weather data
-Weather icons
-API integration
+A 2-player Tic Tac Toe game with score tracking and win detection.
 
-📺 YouTube Clone UI
+### Features
 
-A frontend clone of YouTube homepage using HTML and CSS.
+* 2-player gameplay
+* Simple AI mode
+* Scoreboard system
+* Win and draw detection
+* Modern responsive UI
 
-Features
-Video grid layout
-Sidebar navigation
-Header with search bar
-Responsive UI
+---
 
-🛠️ Technologies Used
+## 🌦️ Weather Web App
 
-HTML5
-CSS3
-JavaScript (Vanilla JS)
-OpenWeatherMap API
-LocalStorage API
+A real-time weather application using the OpenWeatherMap API.
 
-📁 Repository Structure
+### Features
 
+* City search functionality
+* Live weather data
+* Weather icons
+* API integration
+* Responsive interface
+
+---
+
+## 📺 YouTube Clone UI
+
+A frontend clone of the YouTube homepage built using HTML and CSS.
+
+### Features
+
+* Video grid layout
+* Sidebar navigation
+* Search bar header
+* Responsive UI design
+
+---
+
+# 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla JS)
+* OpenWeatherMap API
+* LocalStorage API
+
+---
+
+# 📁 Repository Structure
+
+```bash
 Web-Development-Projects/
 ├── Interactive-Navigation-Menu/
 ├── Stopwatch-Web-App/
@@ -110,29 +133,44 @@ Web-Development-Projects/
 ├── Weather-Web-App/
 ├── YouTube-Clone/
 └── index.html
+```
 
-🚀 Deployment
+---
 
-Hosted using GitHub Pages
+# 🚀 Deployment
 
-Live Website
+Hosted using GitHub Pages.
+
+🔗 Live Website:
 https://ashritha-16.github.io/Web-Development-Projects/
 
-🎯 Learning Outcomes
+---
 
-JavaScript logic building
-DOM manipulation
-API integration
-LocalStorage usage
-Responsive design
-Real project structuring
+# 🎯 Learning Outcomes
 
-👩‍💻 Author
+Through these projects, I gained practical experience in:
 
-Ashritha
-GitHub: https://github.com/ashritha-16
-Live Project: https://ashritha-16.github.io/Web-Development-Projects/
+* JavaScript logic building
+* DOM manipulation
+* API integration
+* LocalStorage handling
+* Responsive web design
+* Real-world project structuring
 
-⭐ Note
+---
 
-If you like this project, please give it a star ⭐
+# 👩‍💻 Author
+
+**Ashritha**
+
+🔗 GitHub:
+https://github.com/ashritha-16
+
+🔗 Live Portfolio:
+https://ashritha-16.github.io/Web-Development-Projects/
+
+---
+
+# ⭐ Support
+
+If you like this project, please consider giving it a star ⭐

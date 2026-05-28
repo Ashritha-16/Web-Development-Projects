@@ -6,9 +6,6 @@
 <title>Ashritha's Web Development Projects</title>
 
 <style>
-/* =========================
-   GLOBAL STYLES
-========================= */
 * {
   margin: 0;
   padding: 0;
@@ -16,22 +13,16 @@
   font-family: "Poppins", Arial, sans-serif;
 }
 
-/* =========================
-   BODY
-========================= */
 body {
   min-height: 100vh;
   background: linear-gradient(135deg, #0f172a, #1e293b, #0b1220);
-  color: #ffffff;
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 60px 20px;
 }
 
-/* =========================
-   HEADER
-========================= */
 h1 {
   font-size: 3rem;
   text-align: center;
@@ -46,9 +37,6 @@ p {
   max-width: 650px;
 }
 
-/* =========================
-   GRID CONTAINER
-========================= */
 .container {
   width: 100%;
   max-width: 1100px;
@@ -57,9 +45,6 @@ p {
   gap: 20px;
 }
 
-/* =========================
-   PROJECT CARD
-========================= */
 .card {
   display: block;
   text-decoration: none;
@@ -77,10 +62,9 @@ p {
 .card:hover {
   transform: translateY(-8px);
   border-color: cyan;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.4);
 }
 
-/* light shine effect */
 .card::before {
   content: "";
   position: absolute;
@@ -88,7 +72,7 @@ p {
   left: -120%;
   width: 100%;
   height: 100%;
-  background: rgba(0, 255, 255, 0.08);
+  background: rgba(0,255,255,0.08);
   transition: 0.4s;
 }
 
@@ -102,9 +86,6 @@ p {
   font-weight: 500;
 }
 
-/* =========================
-   FOOTER
-========================= */
 footer {
   margin-top: 60px;
   color: #94a3b8;
@@ -112,17 +93,9 @@ footer {
   text-align: center;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 @media (max-width: 600px) {
-  h1 {
-    font-size: 2.2rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
+  h1 { font-size: 2.2rem; }
+  p { font-size: 1rem; }
 }
 </style>
 
@@ -131,9 +104,10 @@ footer {
 <body>
 
 <h1>🚀 Ashritha's Web Development Projects</h1>
+
 <p>
 A collection of frontend projects built using HTML, CSS, and JavaScript.
-Click any project to explore it.
+Click any project to explore.
 </p>
 
 <div class="container">
@@ -151,15 +125,11 @@ Click any project to explore it.
   </a>
 
   <a class="card" href="./weather-web-app/">
-    <span>🌦️ Weather App</span>
+    <span>🌦️ Weather Web App</span>
   </a>
 
   <a class="card" href="./YouTube-Clone/">
     <span>▶ YouTube Clone</span>
-  </a>
-
-  <a class="card" href="./Responsive-Landing-Page/">
-    <span>🌐 Responsive Landing Page</span>
   </a>
 
 </div>

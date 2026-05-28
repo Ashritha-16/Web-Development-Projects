@@ -7,74 +7,123 @@
 
 <style>
 /* =========================
-   BASIC RESET
+   GLOBAL STYLES
 ========================= */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
 }
 
 /* =========================
-   PAGE BACKGROUND
+   BODY
 ========================= */
 body {
-  background-color: #f5f7fb;
-  color: #333;
-  text-align: center;
-  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 60px 30px;
+  background: linear-gradient(135deg, #0f172a, #1e293b, #0b1220);
+  color: #fff;
 }
 
 /* =========================
    HEADER
 ========================= */
 h1 {
-  margin-bottom: 10px;
+  font-size: 3rem;
+  margin-bottom: 8px;
+  text-align: center;
 }
 
 p {
-  margin-bottom: 30px;
-  color: #666;
+  color: #cbd5e1;
+  margin-bottom: 50px;
+  font-size: 18px;
 }
 
 /* =========================
-   PROJECT CONTAINER
+   GRID CONTAINER
 ========================= */
 .container {
-  max-width: 900px;
-  margin: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  width: 100%;
+  max-width: 1200px;
 }
 
 /* =========================
-   PROJECT BOX
+   PROJECT CARD
 ========================= */
 .box {
-  width: 200px;
-  background: white;
-  padding: 20px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  position: relative;
+  padding: 40px;
+  border-radius: 18px;
   text-decoration: none;
-  color: #333;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: 0.3s ease;
+  overflow: hidden;
+  font-weight: 500;
+  font-size: 18px;
 }
 
-/* hover effect */
+/* hover */
 .box:hover {
-  border-color: #007bff;
+  transform: translateY(-10px);
+  border-color: rgba(0, 255, 255, 0.5);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+}
+
+/* subtle highlight */
+.box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 255, 255, 0.08);
+  transition: 0.4s;
+}
+
+.box:hover::before {
+  left: 0;
+}
+
+/* text inside card */
+.box span {
+  position: relative;
+  z-index: 1;
+  font-size: 1.2rem;
 }
 
 /* =========================
    FOOTER
 ========================= */
 footer {
-  margin-top: 40px;
-  font-size: 14px;
-  color: #777;
+  margin-top: 70px;
+  font-size: 16px;
+  color: #94a3b8;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .box {
+    padding: 25px;
+    font-size: 16px;
+  }
 }
 </style>
 
@@ -82,21 +131,21 @@ footer {
 
 <body>
 
-<h1>My Web Development Projects</h1>
-<p>Simple project showcase</p>
+<h1>🚀 Ashritha’s Web Development Projects</h1>
+<p>Frontend projects using HTML5, CSS3 and JavaScript</p>
 
 <div class="container">
 
-  <a class="box" href="#">Stopwatch-Web-App</a>
-  <a class="box" href="#">Task-Manager_Web_App</a>
-  <a class="box" href="#">Tic-Tac-Toe_Web_App</a>
-  <a class="box" href="#">weather-web-app</a>
-  <a class="box" href="#">YouTube-Clone</a>
+  <a class="box" href="#"><span>⏱ Stopwatch Web App</span></a>
+  <a class="box" href="#"><span>📝 Task Manager App</span></a>
+  <a class="box" href="#"><span>🎮 Tic Tac Toe Game</span></a>
+  <a class="box" href="#"><span>🌤 Weather App</span></a>
+  <a class="box" href="#"><span>▶ YouTube Clone</span></a>
 
 </div>
 
 <footer>
-  © 2026 My Projects
+  © 2026 My Developer Portfolio | Built with ❤️
 </footer>
 
 </body>

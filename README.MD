@@ -1,65 +1,132 @@
-🚀 Web Development Projects
+🚀 Web Development Projects Portfolio
 
-This repository contains my web development projects built using HTML5, CSS3, and JavaScript.
-These projects were developed to improve my skills in frontend development, responsive design, and JavaScript logic building.
+🌐 Live Demo:
+https://ashritha-16.github.io/Web-Development-Projects/
 
-📂 Projects Included
-🌐 Responsive Landing Page
-Fully responsive layout for desktop and mobile
-Navigation bar and interactive UI sections
-Built using HTML5, CSS3, JavaScript
+📌 About
 
-⏱️ Stopwatch Web App
-Start, stop, and reset functionality
-Clean and user-friendly UI
-Built using HTML5, CSS3, JavaScript
+This repository is a collection of my frontend web development projects built using:
 
-🎮 Tic-Tac-Toe Web App
-Interactive 2-player game
-Win and draw detection logic
-Responsive game interface
-
-🌦️ Weather Web App
-Displays real-time weather data
-API integration for live updates
-Responsive and clean UI
-
-📺 YouTube Clone
-UI clone of YouTube homepage
-Sidebar navigation and video grid layout
-Fully responsive design
-
-📝 Task Manager Web App ⭐ (NEW)
-Add, edit, delete tasks
-Mark tasks as completed or pending
-Filter tasks by status and priority
-Stores data using LocalStorage
-Responsive and clean UI
-
-🛠️ Technologies Used
 HTML5
 CSS3
 JavaScript (Vanilla JS)
 
-📁 Folder Structure
-Web_Development/
+These projects helped me strengthen my skills in:
+
+Responsive Web Design
+JavaScript Logic Building
+DOM Manipulation
+API Integration
+UI/UX Development
+LocalStorage usage
+Real-world frontend project development
+📂 Projects Included
+🌐 Interactive Navigation Menu
+
+A responsive navigation bar that changes style on scroll with smooth hover effects and fixed positioning.
+
+Features:
+
+Scroll-based navbar animation
+Fixed navigation bar
+Smooth hover effects
+Fully responsive layout
+⏱️ Stopwatch Web App
+
+A fully functional stopwatch with start, pause, reset, and lap tracking features.
+
+Features:
+
+Start / Pause / Reset
+Lap time recording
+Millisecond accuracy
+Glassmorphism UI design
+Responsive layout
+📝 Task Manager Web App
+
+A task management system to create, edit, delete, and filter tasks with LocalStorage support.
+
+Features:
+
+Add / Edit / Delete tasks
+Priority and status filtering
+LocalStorage persistence
+Due date validation
+Responsive UI
+🎮 Tic Tac Toe Game
+
+An interactive game with both 2-player mode and AI mode along with score tracking.
+
+Features:
+
+2-player mode
+Simple AI (random moves)
+Scoreboard with persistence
+Win/draw detection
+Modern neon UI
+🌦️ Weather Web App
+
+A real-time weather application using OpenWeatherMap API.
+
+Features:
+
+City-based weather search
+Live weather data
+Hourly forecast
+Weather icons
+API integration
+📺 YouTube Clone UI
+
+A frontend clone of the YouTube homepage built using HTML and CSS.
+
+Features:
+
+YouTube-style layout
+Sidebar navigation
+Video grid design
+Header with search bar
+Responsive UI
+🛠️ Technologies Used
+HTML5
+CSS3
+JavaScript (Vanilla JS)
+OpenWeatherMap API
+LocalStorage API
+📁 Repository Structure
+Web-Development-Projects/
 │
-├── Responsive-Landing-Page/
+├── Interactive-Navigation-Menu/
 ├── Stopwatch-Web-App/
+├── Task-Manager-Web-App/
 ├── Tic-Tac-Toe-Web-App/
 ├── Weather-Web-App/
 ├── YouTube-Clone/
-└── Task-Manager-Web-App/
+└── index.html
+🚀 Deployment
+
+This project is hosted using GitHub Pages.
+
+👉 Live Website:
+https://ashritha-16.github.io/Web-Development-Projects/
+
+🎯 Learning Outcomes
+
+Through these projects, I improved my understanding of:
+
+JavaScript logic building
+DOM manipulation and event handling
+Working with APIs
+Data storage using LocalStorage
+Responsive web design principles
+Structuring real-world frontend applications
 👩‍💻 Author
 
 Ashritha
+GitHub: https://github.com/Ashritha-16
+Live Project: https://ashritha-16.github.io/Web-Development-Projects/
 
-⭐ Final Note
+⭐ Note
 
-This repository showcases my frontend development journey and hands-on practice with real-world mini projects using core web technologies.
+This repository represents my frontend development practice and continuous learning journey in web development.
 
-
-
-
-
-
+If you like it, feel free to star the repository ⭐

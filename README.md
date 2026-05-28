@@ -7,7 +7,6 @@ A collection of frontend web development projects built using HTML, CSS, and Jav
 https://ashritha-16.github.io/Web-Development-Projects/
 
 📌 About
-
 This repository is a collection of my frontend web development projects built using:
 
 HTML5
@@ -17,11 +16,17 @@ JavaScript (Vanilla JS)
 These projects helped me strengthen my skills in:
 
 Responsive Web Design
+
 JavaScript Logic Building
+
 DOM Manipulation
+
 API Integration
+
 UI/UX Development
+
 LocalStorage usage
+
 Real-world frontend project development
 
 📂 Projects Included

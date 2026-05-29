@@ -31,19 +31,6 @@ These projects helped me improve my skills in:
 
 # 📂 Projects Included
 
-## 🌐 Interactive Navigation Menu
-
-A responsive navigation bar with scroll-based effects and smooth hover animations.
-
-### Features
-
-* Scroll-based navbar animation
-* Fixed navigation bar
-* Smooth hover effects
-* Fully responsive layout
-
----
-
 ## ⏱️ Stopwatch Web App
 
 A stopwatch application with start, pause, reset, and lap tracking functionality.
